@@ -1,0 +1,3 @@
+Hey Everyone!
+
+This repository is just and storage of my java practice questions
