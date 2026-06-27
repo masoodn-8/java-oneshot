@@ -1,0 +1,46 @@
+1. Overview --
+
+Java is a statically-typed, object-oriented programming language. It’s also platform-independent — Java programs can be written and compiled on one type of machine, such as a Windows system, and executed on another, such as MacOS, without any modification to the source code.
+
+
+2. Data Types --
+
+There are two broad categories of data types in Java: primitive types and objects/reference types.
+
+Primitive types are the basic data types that store simple data and form the foundation of data manipulation. For example, Java has primitive types for integer values (int, long, byte, short), floating-point values (float and double), character values (char), and logical values (boolean).
+
+On the other hand, reference types are objects that contain references to values and/or other objects, or to the special value null to denote the absence of value.
+
+The String class is a good example of a reference type. An instance of the class, called an object, represents a sequence of characters, such as “Hello World”.
+
+
+3. Declaring Variables in Java --
+To declare a variable in Java, we must specify its name (also called an identifier) and type. Let’s see a simple example:
+
+int a;
+int b;
+double c;
+
+In the above example, the variables will receive default initial values based on their declared types. Since we declared our variables to be int and double, they’ll have a default of 0 and 0.0, respectively
+
+Alternatively, we can use the assignment operator (=) to initialize variables during declaration:
+
+int a = 10;
+
+In the above example, we declare a variable with an identifier a to be of type int and assign a value of 10 to it using the assignment operator (=) and terminate the statement with a semi-colon (;). It’s compulsory, in Java, that all statements end with a semi-colon.
+
+4. Identifiers --
+
+An identifier is a name of any length, consisting of letters, digits, underscore, and dollar sign, that conforms to the following rules:
+starts with a letter, an underscore (_), or a dollar sign ($)
+can’t be a reserved keyword
+can’t be true, false, or null
+
+
+5. Java Keywords --
+Keywords are reserved words that have special meaning in Java
+For example, public, static, class, main, new, instanceof, are keywords in Java, and as such, we can’t use them as identifiers (variable names).
+
+
+
+
